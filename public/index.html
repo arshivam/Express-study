@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog page</title>
+</head>
+<body>
+    <b>Shivam Armarkar</b>
+    <p>This is index page</p>
+    <script>
+        //writting post request
+    //    async function testPost() {
+    //     console.log("testing");
+    //         let a = await fetch("/",{method:"POST"})
+    //         let b = await a.text()
+    //         console.log(b);
+    //     }
+
+    //     testPost()
+          //writting post request
+
+        async function testPut() {
+        console.log("testing put");
+            let a = await fetch("/",{method:"PUT"})
+            let b = await a.text()
+            console.log(b);
+        }
+        
+        testPut()
+    </script>
+</body>
+</html>
